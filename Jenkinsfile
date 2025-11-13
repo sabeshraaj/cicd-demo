@@ -10,7 +10,7 @@ pipeline {
         // Example: 123456789012.dkr.ecr.us-east-1.amazonaws.com/cicd-demo
         ECR_REPO_URI = "275851867352.dkr.ecr.ap-south-1.amazonaws.com/cicd-demo" 
         // This MUST match the ID of the AWS Credentials stored securely in Jenkins
-        AWS_JENKINS_CREDENTIALS_ID = "aws-ecr-jenkins-creds"
+        AWS_JENKINS_CREDENTIALS_ID = "aws-ecr-credentials"
         // --- END CHANGES ---
     }
 
