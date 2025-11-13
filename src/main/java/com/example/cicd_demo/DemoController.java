@@ -9,6 +9,6 @@ public class DemoController {
     @GetMapping("/")
     public String home() {
         // This is the initial message (Version 1.0)
-        return "Hello from Spring Boot CI/CD Demo! Version 2.0";
+        return "Hello from Spring Boot CI/CD Demo! Version 3.0";
     }
 }
